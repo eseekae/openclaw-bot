@@ -2,9 +2,12 @@
   "name": "openclaw-bot",
   "version": "1.0.0",
   "scripts": {
-    "start": "openclaw start"
+    "start": "node_modules/.bin/openclaw start --gateway telegram --llm gemini"
   },
   "dependencies": {
     "openclaw": "latest"
+  },
+  "engines": {
+    "node": "22.x"
   }
 }
